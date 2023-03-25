@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Selected Value</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/style.css" rel="stylesheet" />
 
+    <style>
+      #list {
+        width: 20%;
+        height: auto;
+        border: 1px solid green;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <form>
+        <label for="framework">Framework:</label>
+        <input
+          type="text"
+          id="framework"
+          placeholder="Enter a framework"
+          autocomplete="off"
+        />
+
+        <button id="btnAdd">Add</button>
+        <br />
+        <br />
+
+        <label for="list">Framework List:</label>
+        <br />
+        <br />
+        <select id="list" multiple>
+            
+        </select>
+        <br />
+        <br />
+
+        <button id="btnRemove">Remove Selected Framework</button>
+      </form>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
